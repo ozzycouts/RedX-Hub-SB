@@ -11,7 +11,7 @@ if game.PlaceId == 6403373529 then
     decal.Face = "Top"
     decal.Texture = "rbxassetid://17047840821"
         
-    game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Welcome!",Text = "Welcome to Hub Kykyryz0B.",Icon = "rbxassetid://7733960981",Duration = 10})
+    game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Welcome!",Text = "Welcome to the RedX Hub.",Icon = "rbxassetid://7733960981",Duration = 10})
     
     local bypass;
         bypass = hookmetamethod(game, "__namecall", function(method, ...) 
@@ -27,7 +27,7 @@ if game.PlaceId == 6403373529 then
     
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Kavo.lua"))()
     
-    local Window = Library.CreateLib("Kykyryz0 Hub | Slap Battles", "DarkTheme")
+    local Window = Library.CreateLib("RedX Hub | Slap Battles", "DarkTheme")
     
     local Tab = Window:NewTab("INFO")
     
@@ -46,7 +46,7 @@ if game.PlaceId == 6403373529 then
     local Section = Tab:NewSection("Discord Server")
     
     Section:NewButton("Click to copy", "INFO", function()
-        setclipboard('https://discord.gg/TjSpKFNnN3')
+        setclipboard('https://discord.gg/cHM9vMea')
     end)
     
     local Section = Tab:NewSection("Telegram")
