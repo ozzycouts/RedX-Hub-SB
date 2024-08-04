@@ -58,7 +58,7 @@ if game.PlaceId == 6403373529 then
     local Section = Tab:NewSection("Youtube")
     
     Section:NewButton("Click to copy", "INFO", function()
-        setclipboard('https://www.youtube.com/@KykypyzoB/featured')
+        setclipboard('https://www.youtube.com/@RedXhubOfficial')
     end)
     
     local Tab = Window:NewTab("Combat")
